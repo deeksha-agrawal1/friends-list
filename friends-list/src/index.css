@@ -49,7 +49,7 @@ body {
   text-align: center;
 }
 
-.add-item-box {
+.addFriend {
   background: #fbc1bb;
   color: #ec645b;
   margin-top: 1em;
@@ -60,11 +60,11 @@ body {
   padding: 5px;
 }
 
-.add-item-box svg {
+.addFriend svg {
   margin: 5px;
 }
 
-.add-item-input {
+.addFriendInput {
   box-sizing: border-box;
   border: none;
   background: transparent;
@@ -80,12 +80,12 @@ input:focus {
   outline: 0;
 }
 
-.item-list {
+.friendsList {
   display: flex;
   flex-direction: column;
 }
 
-.item-container {
+.friendsListContainer {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -93,11 +93,7 @@ input:focus {
   border-bottom: 1px #fbc1bb solid;
 }
 
-.item-name {
-  cursor: pointer;
-}
-
-.item-name svg {
+.friendName svg {
   margin-left: 5px;
   margin-right: 5px;
 }
@@ -118,7 +114,7 @@ input:focus {
   padding: 10px;
 }
 
-.quantity {
+.actionButtons {
   display: flex;
   align-items: center;
   border: 1px solid #ec645b;
